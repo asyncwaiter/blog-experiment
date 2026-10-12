@@ -13,6 +13,8 @@ export default function Page() {
         <Link href="/rerender-remount-retry">
           리렌더 · 리마운트 · 재시도 비교 실험 →
         </Link>
+        <br />
+        <Link href="/hydration">prefetch + hydrate 데이터 나이 실험 →</Link>
       </p>
       <hr />
       <Parent />
