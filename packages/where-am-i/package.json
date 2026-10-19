@@ -1,0 +1,19 @@
+{
+  "name": "where-am-i",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "react-server": "./dist/server.js",
+      "default": "./dist/client.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -15,6 +15,10 @@ export default function Page() {
         </Link>
         <br />
         <Link href="/hydration">prefetch + hydrate 데이터 나이 실험 →</Link>
+        <br />
+        <Link href="/react-server-condition">
+          exports의 react-server 조건 resolve 실험 →
+        </Link>
       </p>
       <hr />
       <Parent />
