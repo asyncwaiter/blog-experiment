@@ -1,0 +1,40 @@
+$ next build
+▲ Next.js 16.4.0 (Turbopack)
+✓ Running next.config.ts took 20ms
+- Experiments (use with caution):
+  ✓ serverSourceMaps
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 164ms
+  Running TypeScript ...
+  Finished TypeScript in 862ms ...
+  Collecting page data using 9 workers ...
+⚠ Your version of Next.js is affected by a known security vulnerability. This command is continuing after the upgrade reminder.
+Reference: https://registry.npmjs.org/-/npm/v1/security/advisories/bulk
+  Generating static pages using 9 workers (0/7) ...
+[exp] ssr ERR: `getLocale` is not supported in Client Components.
+Parent: render
+Child: render
+[ClientBox:ssr] whereAmI(): threw: STUB: not react-server graph
+[ClientBox:ssr] tag(): threw: STUB: not react-server graph
+  Generating static pages using 9 workers (1/7) 
+  Generating static pages using 9 workers (3/7) 
+  Generating static pages using 9 workers (5/7) 
+✓ Generating static pages using 9 workers (7/7) in 126ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/bff/user
+├ ○ /hydration
+├ ƒ /hydration/hydrated-fresh
+├ ƒ /hydration/hydrated-stale
+├ ○ /invalid-client-imports
+├ ○ /react-server-condition
+└ ○ /rerender-remount-retry
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

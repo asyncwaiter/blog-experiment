@@ -19,6 +19,10 @@ export default function Page() {
         <Link href="/react-server-condition">
           exports의 react-server 조건 resolve 실험 →
         </Link>
+        <br />
+        <Link href="/invalid-client-imports">
+          클라이언트 그래프에서 서버 전용 모듈 import 실험 →
+        </Link>
       </p>
       <hr />
       <Parent />
